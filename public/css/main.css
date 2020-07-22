@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    position: 0;
+    box-sizing: border-box;
+}
+
+.jumbotron{
+    position: relative;
+    height: 40vh;
+    margin: 0;
+}
+
+.jumbotron, .navbar{
+    background: #578DF9;
+}
+
+.icon-home{
+    position: absolute;
+    bottom: 0;
+    height: 160px;
+    width: 160px;
+    background: blue;
+    margin-bottom: -60px;
+    border-radius: 50%;
+}
+
+.icon-jumb{
+    margin-top: -4%;
+}
