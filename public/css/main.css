@@ -1,29 +1,235 @@
-*{
-    margin: 0;
-    position: 0;
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+*{ margin: 0; padding: 0; box-sizing: border-box; font-family: 'Quicksand', sans-serif }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+}
+
+/* page pertama */
+
+.landing-page{
+    display: flex;
+    flex-grow: 0.9;
+    background: #6A8CAF;
+}
+
+.main-contain{
+    display: flex;
+    flex-grow: 2.5;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px 0 50px 0;
+    padding: 10px;
+    background-image: linear-gradient(#A7E9AF, #75B79E);
+}
+
+.main-content{
     box-sizing: border-box;
 }
 
-.jumbotron{
+.main-content h1, .main-content h2{
+    text-align: center;
+    color: #fff;
+}
+
+.main-content h1{
+    font-weight: 100;
+}
+
+.side-contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background: #6A8CAF;
+}
+
+.side-content p{
+    color: white;
+    margin-top: 5px;
+}
+
+/* page kedua */
+
+.end-page{
     position: relative;
-    height: 40vh;
-    margin: 0;
+    flex-grow: 1;
+    background: rgb(46, 145, 245);
 }
 
-.jumbotron, .navbar{
-    background: #578DF9;
+.end-page header{
+    display: flex;
+    position: relative;
 }
 
-.icon-home{
+.end-page header .wall{
+    flex-grow: 1;
+}
+
+.end-page header .wall1{background: #EE6C87; height: 18px;}
+
+.end-page header .wall2{background: #82D2EE; height: 18px;}
+
+.end-page header .wall3{background: #F7CE74; height: 18px;}
+
+.end-page header .wall4{background: #283054; height: 18px;}
+
+.end-page header aside{
     position: absolute;
-    bottom: 0;
-    height: 160px;
-    width: 160px;
-    background: blue;
-    margin-bottom: -60px;
+    right: 0;
+    width: 25%;
+    height: 100%;
+    border-radius: 0 0 0 20px;
+    padding: 10px;
+    color: #fff;
+    background-image: linear-gradient(#78AEFF, #2155A3);
+}
+
+.end-page header aside img{
+    float: left;
     border-radius: 50%;
 }
 
-.icon-jumb{
-    margin-top: -4%;
+.end-page header aside h3{
+    float: right;
+    text-align: right;
+    margin-left: 10px;
+}
+
+.end-page header aside span{
+    font-weight: 100;
+}
+
+.end-page section{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.school h2, .hobby h2, .music h2, .school h1, .hobby h1, .music h1{
+    color: #fff;
+}
+
+.school h2, .hobby h2, .music h2{
+    font-weight: 100;
+}
+
+.school img, .hobby img, .music img{
+    margin: 20px 0;
+}
+
+footer{
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    font-size: bold;
+    background: #B2E4D5;
+}
+
+@media screen and (max-width: 922px) {
+    .end-page header aside{
+        position: absolute;
+        right: 0;
+        width: 30%;
+        height: 100%;
+        border-radius: 0 0 0 20px;
+        padding: 10px;
+        color: #fff;
+        background-image: linear-gradient(#78AEFF, #2155A3);
+    }
+}
+
+@media screen and (max-width: 774px) {
+    .end-page header aside{
+        position: absolute;
+        right: 0;
+        width: 35%;
+        height: 100%;
+        border-radius: 0 0 0 20px;
+        padding: 10px;
+        color: #fff;
+        background-image: linear-gradient(#78AEFF, #2155A3);
+    }
+}
+
+@media screen and (max-width: 702px) {
+    .end-page header aside{
+        position: absolute;
+        right: 0;
+        width: 40%;
+        height: 100%;
+        border-radius: 0 0 0 20px;
+        padding: 10px;
+        color: #fff;
+        background-image: linear-gradient(#78AEFF, #2155A3);
+    }
+}
+
+@media screen and (max-width: 591px) {
+    .end-page header aside{
+        position: absolute;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        border-radius: 0 0 0 20px;
+        padding: 10px;
+        color: #fff;
+        background-image: linear-gradient(#78AEFF, #2155A3);
+    }
+}
+
+@media screen and (max-width: 441px) {
+    .end-page header aside{
+        position: absolute;
+        right: 0;
+        width: 60%;
+        height: 100%;
+        border-radius: 0 0 0 20px;
+        padding: 10px;
+        color: #fff;
+        background-image: linear-gradient(#78AEFF, #2155A3);
+    }
+
+    .landing-page{
+        display: flex;
+        flex-grow: 0.8;
+        background: #6A8CAF;
+    }
+
+    .school h2, .hobby h2, .music h2{
+        font-weight: 100;
+    }
+
+    .end-page{
+        flex: 1;
+        background: rgb(46, 145, 245);
+    }
+
+    .school img, .hobby img, .music img{
+        margin: 5px 0;
+    }
+
+    .end-page section{
+        display: block;
+        overflow: scroll;
+        padding: 20px;
+    }
+
+    .end-page section .music{
+        margin: 15% 0;
+    }
+    
+    footer{
+        padding: 10px;
+        text-align: center;
+        font-size: bold;
+        background: #B2E4D5;
+    }
 }

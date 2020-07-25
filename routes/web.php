@@ -14,3 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'MainController@home');
+Route::get('/portfolio', 'MainController@portfolio');
+Route::get('/experience', 'MainController@experience');

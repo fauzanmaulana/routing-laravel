@@ -6,8 +6,8 @@
         <div class="landing-page">
             <main class="main-contain">
                 <div class="main-content">
-                    <h2>Someone <span><img src="assets/man.png" alt="orang" width="100"></span> Who</h2>
-                    <h1>Eat | Coffee | Code</h1>
+                    <h2>Fauzan <span><img src="assets/man.png" alt="orang" width="100"></span> Maulana</h2>
+                    <h1>Experience</h1>
                 </div>
             </main>
             <aside class="side-contain">
@@ -23,25 +23,19 @@
                 <aside>
                     <div class="aside-content">
                         <img src="assets/profile.jpg" alt="profile" width="50">
-                        <h3><span>Fauzan Maulana</span><br>- Home</h3>
+                        <h3><span>Fauzan Maulana</span><br>- Experience</h3>
                     </div>
                 </aside>
             </header>
             <section>
-                <a href="/portfolio" style="text-decoration:none">
-                    <div class="school">
-                        <h1>Portfolio</h1>
-                        <img src="assets/school.png" alt="school" width="150">
-                        <hr style="color:white">
-                    </div>
-                </a>
-                <a href="/experience" style="text-decoration:none">
-                    <div class="music">
-                        <h1>Experience</h1>
-                        <img src="assets/guitar.png" alt="guitar" width="150">
-                        <hr style="color:white">
-                    </div>
-                </a>
+                <h1 style="color:white">Experience</h1>
+                <ul>
+                    <li style="color:white">2014 - 2015 (Lulus SD di SINDANGKARSA 1)</li>
+                    <br>
+                    <li style="color:white">2017 - 1018 (Lulus SMP di SMPN 11 DEPOK)</li>
+                    <br>
+                    <li style="color:white">2018 (Masuk SMK TARUNA BHAKTI)</li>
+                </ul>
             </section>
         </div>
 
